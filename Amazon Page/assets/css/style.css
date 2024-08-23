@@ -56,6 +56,7 @@ header img{
     background-image: url(../images/bg-image.png);
     height: 200px;
     align-content: center;
+    background-size: contain;
 }
 
 .banner-2 h1{
@@ -80,6 +81,7 @@ header img{
     font-size: 1.4rem;
     font-weight: 600;
     text-align: left;
+    background-color: white;
 }
 
 .div-title a{
