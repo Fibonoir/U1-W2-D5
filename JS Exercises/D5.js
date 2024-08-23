@@ -132,12 +132,81 @@ while (numericArray[i] !== 32) {
 */
 const charactersArray = ['g', 'n', 'u', 'z', 'd'];
 
-const alphabet = 'abcdefghijklmnopqrstuvwxyz';
 const positionsArray = [];
 
 for (let i = 0; i < charactersArray.length; i++) {
   const character = charactersArray[i];
-  const position = alphabet.indexOf(character) + 1;
+  let position;
+
+  switch (character) {
+    case 'a':
+      position = 1;
+      break;
+    case 'b':
+      position = 2;
+      break;
+    case 'c':
+      position = 3;
+      break;
+    case 'd':
+      position = 4;
+      break;
+    case 'e':
+      position = 5;
+      break;
+    case 'f':
+      position = 6;
+      break;
+    case 'g':
+      position = 7;
+      break;
+    case 'h':
+      position = 8;
+      break;
+    case 'i':
+      position = 9;
+      break;
+    case 'l':
+      position = 10;
+      break;
+    case 'm':
+      position = 11;
+      break;
+    case 'n':
+      position = 12;
+      break;
+    case 'o':
+      position = 13;
+      break;
+    case 'p':
+      position = 14;
+      break;
+    case 'q':
+      position = 15;
+      break;
+    case 'r':
+      position = 16;
+      break;
+    case 's':
+      position = 17;
+      break;
+    case 't':
+      position = 18;
+      break;
+    case 'u':
+      position = 19;
+      break;
+    case 'v':
+      position = 20;
+      break;
+    case 'z':
+      position = 21;
+      break;
+    default:
+      position = -1; 
+      break;
+  }
+
   positionsArray.push(position);
 }
 
