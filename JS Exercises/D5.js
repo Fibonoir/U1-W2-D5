@@ -122,6 +122,9 @@ let i = 0;
 while (numericArray[i] !== 32) {
   console.log(numericArray[i]);
   i++;
+  if(numericArray[i] === 32){
+    console.log(numericArray[i])
+  }
 }
 
 
